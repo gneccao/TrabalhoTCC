@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gnecco.trabalhotcc.login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/tvModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/modelo_text" />
+
+        <EditText
+            android:id="@+id/etModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+
+        <TextView
+            android:id="@+id/tvValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valor_text"
+            android:layout_weight="10"/>
+
+        <EditText
+            android:id="@+id/etValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+    <TextView
+            android:id="@+id/tvAno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ano_text"
+            android:layout_weight="10"/>
+
+        <EditText
+            android:id="@+id/etAno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_cadastrar_text"
+        android:onClick="Cadastrar"/>
+
+
+</LinearLayout>

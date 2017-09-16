@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navCadastro"
+            android:icon="@drawable/ic_menu_cadastro"
+            android:title="@string/cadastro" />
+        <item
+            android:id="@+id/navListaDados"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/lista_de_dados" />
+        <item
+            android:id="@+id/navSobre"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/sobre" />
+        <item
+            android:id="@+id/navMapa"
+            android:icon="@drawable/ic_menu_maps"
+            android:title="@string/mapa" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/navCompartilhar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/compartilhar" />
+            <item
+                android:id="@+id/navLigacao"
+                android:icon="@drawable/ic_menu_call"
+                android:title="@string/fazer_ligacao" />
+        </menu>
+    </item>
+
+
+    <item android:title="Sair">
+        <menu>
+            <item
+                android:id="@+id/navExit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/Sair" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configuraçoes</string>
+    <string name="ano_text">Ano</string>
+    <string name="botao_cadastrar_text">Cadastrar</string>
+    <string name="botao_login_text">Logar</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="continuar_conectado">Continuar logado</string>
+    <string name="desenvolvido">Desenvolvido por:</string>
+    <string name="fazer_ligacao">Ligação</string>
+    <string name="ligar">Ligar</string>
+    <string name="lista_de_dados">Lista de productos</string>
+    <string name="mapa">Mapa</string>
+    <string name="modelo_text">Modelo</string>
+    <string name="navigation_drawer_close">Fechar menu navegação</string>
+    <string name="navigation_drawer_open">Abrir menu navegação</string>
+    <string name="preco_text">Preço</string>
+    <string name="senha_text">Senha</string>
+    <string name="sobre">Sobre</string>
+    <string name="title_activity_main">Inicio</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="tvVersion">Versão</string>
+    <string name="usuario_text">Usuário</string>
+    <string name="valor_text">Preço</string>
+    <string name="cadastro">Produto</string>
+    <string name="welcome_message">"Seja Bem-Vindo: "</string>
+    <string name="log_out">Deslogar</string>
+    <string name="facebook_cancel">Cancelado</string>
+    <string name="facebook_error">Erro ao autenticar com o Facebook</string>
+    <string name="permission_denied_call">Sem permissão para Ligação!</string>
+    <string name="call_error">Deu erro na ligação!</string>
+    <string name="Sair">Sair</string>
+    <string name="Share">Compartilhar</string>
+    <string name="share_text">Compartilhar via</string>
+    <string name="subject_share">Assunto do Compartilhar</string>
+    <string name="communicate">Comunicação</string>
+    <string name="login_senha_incorretos">Login e/ou Senha incorretos!</string>
+</resources>

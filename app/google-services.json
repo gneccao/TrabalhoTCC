@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "142624351072",
+    "firebase_url": "https://trabalhotcc-b3bb1.firebaseio.com",
+    "project_id": "trabalhotcc-b3bb1",
+    "storage_bucket": "trabalhotcc-b3bb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142624351072:android:15b3f7040a5478a7",
+        "android_client_info": {
+          "package_name": "com.example.gnecco.trabalhotcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142624351072-2fjl5psq62kl8vj3f00sv1hmrrs1eea7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2-Z0uBTzYQk_ehLKkC10R-1axVaTDQaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
