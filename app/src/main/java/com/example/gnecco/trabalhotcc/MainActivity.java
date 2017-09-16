@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             startActivity(new Intent(this,ShareActivity.class));
 
-
         } else if (id == R.id.navLigacao) {
 
             startActivity(new Intent(this,MakeCallActivity.class));
